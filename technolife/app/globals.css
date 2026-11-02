@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "dubai";
-  src: url("/public/Font/DUBAI-MEDIUM.TTF");
+  font-family: "Dubai";
+  src: url("/Font/Dubai/DUBAI-REGULAR.TTF");
 }
 
-
+@font-face {
+  font-family: "Nian";
+  src: url("/Font/Nian/Nian-Regular.ttf");
+}
 
 :root {
   --background: #ffffff;
@@ -32,6 +35,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.fontdana{
-  font-family: "dubai";
+.fontdubai{
+  font-family: "Dubai";
+}
+
+.fontnian{
+  font-family: "Nian";
 }
