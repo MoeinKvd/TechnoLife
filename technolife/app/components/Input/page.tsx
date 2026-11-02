@@ -1,0 +1,1 @@
+// input ro bayad az noe typescript nevesht

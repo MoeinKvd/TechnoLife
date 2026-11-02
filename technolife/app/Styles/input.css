@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "dana";
+    src: url("../../public/Font/DUBAI-MEDIUM.TTF");
+}
+input {
+text-align: right;
+}
+input::placeholder{
+font-family: "dana";
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+span{
+    font-family: "dana";
+}
