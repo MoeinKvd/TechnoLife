@@ -5,6 +5,8 @@ export default function Home() {
    
     <div>
       <Navbar />
+      <h1>hello</h1>
+      <h2>test</h2>
     </div>
   );
 }

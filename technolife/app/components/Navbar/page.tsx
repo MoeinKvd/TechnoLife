@@ -1,11 +1,11 @@
 "use client"
-import { ShoppingCartIcon, MagnifyingGlassIcon } from "@phosphor-icons/react"
 import "../../Styles/input.css"
+import {MagnifyingGlassIcon , ShoppingCartIcon ,ListIcon} from "@phosphor-icons/react"
 const Navbar = () => {
     return (
         <div>
-            <img src="https://www.technolife.com/image/banner_TopGifLandingDesktop_geE0U4_6d5295d3-7052-49f6-b150-811ef3077677.gif" alt="" />
-            <div className="parentDiv bg-white w-[100%] h-[130px] flex justify-center items-center">
+            <img className="w-[100%]" src="https://www.technolife.com/image/banner_TopGifLandingDesktop_geE0U4_6d5295d3-7052-49f6-b150-811ef3077677.gif" alt="" />
+            <div className="parentDiv bg-white w-[100%] h-[130px] flex flex-col justify-center items-center mt-[30px]">
                 <div className="firstDiv w-[98%] h-[52px]  flex justify-between mt-[-48px]">
                     <div className="icon-login-singin-Div flex justify-between w-[225px] h-[40px] ">
                         <div className="Icon h-[40px] w-[40px] border border-[0.5px] border-[#F2F4F5] rounded-[10px] flex justify-center items-center">
@@ -33,6 +33,23 @@ const Navbar = () => {
                         </div>
                         <img className="logo w-[110px] h-[50px]" src="https://www.technolife.com/image/static_logo_techno_new.svg" alt="" />
                     </div>
+                </div>
+                <div className="mt-[15px] ">
+                    <ul className="flex flex-row justify-start items-center">
+                        <li className="flex flex-row justify-center mx-[10px]">
+                            <a className="mr-[10px] fontdana" href="">دسته بندی محصولات</a>
+                            <ListIcon size={24} />
+                        </li>
+                        <li className="flex flex-row justify-center mx-[10px]">
+                            <a className="flex flex-row mr-[10px] fontdana" href="">
+                            دستهب نید
+                            <ListIcon size={24} />
+                            
+                            </a>
+                            
+                        </li>
+                        
+                    </ul>
                 </div>
             </div>
         </div>
