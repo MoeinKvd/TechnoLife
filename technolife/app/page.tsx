@@ -1,13 +1,13 @@
 import Footer from "./components/Footer/page";
 import Navbar from "./components/Navbar/page";
+import Slider from "./components/Slider/page";
 
 export default function Home() {
   return (
    
     <div>
       <Navbar />
-      <h1>hello</h1>
-      <h2>test</h2>
+      <Slider />
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ import "../../Styles/input.css"
 
 const Navbar = () => {
     return (
-        <div className="sticky top-0 bg-white">
+        <div className="sticky top-0 bg-white z-5">
             <img className="w-[100%]" src="https://www.technolife.com/image/banner_TopGifLandingDesktop_geE0U4_6d5295d3-7052-49f6-b150-811ef3077677.gif" alt="" />
             <div className="parentDiv bg-white w-[100%] h-[80px] flex flex-col justify-center items-center mt-[10px]">
                 <div className="firstDiv w-[98%] h-[52px]  flex justify-between items-center ">
